@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-image: url("./images/aaa.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0px;
+            font-family: Arial, sans-serif;      
+            background-color: #f4f4f4;
+            color: #333;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        .container {
+            display: flex;
+            justify-content: space-between; /* This aligns the text and image containers to both sides */
+            align-items: flex-start;
+            max-width: 1000px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .text-content {
+            flex: 2; /* Take up more space on the left */
+            padding-right: 20px;
+        }
+        .image-container {
+            flex: 1; /* Take up less space on the right */
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+        .image-container img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        h1 {
+            color: #0b6669;
+            text-align: center;
+        }
+        p {
+            margin: 1em 0;
+        }
+        h3 {
+            color: brown;
+        }
+        .next-button {
+            float:right;      
+            bottom: 20px;          /* Place the button 20px from the bottom of the screen */
+            right: 20px;           /* Place the button 20px from the right edge */
+            color: black;
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-decoration: none; /* Corrected from 0 to 'none' */
+            padding: 10px 20px;    /* Adjusted padding for better button appearance */
+            z-index: 1000;         /* Ensures the button appears above other content */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Main Text Content on the Left -->
+        <div class="text-content">
+            <h1>Hotel</h1>
+            <h1>A Bold Retreat in the Heart of the City</h1>
+            <h3>Opening</h3>
+            <p>The <strong>Plaza Hotel </strong>officially opened on October 1, 1907, designed by architect Henry J. Hardenbergh. It was built as part of a larger plan to enhance the area around Central Park and quickly became a symbol of New York City's rise as a global cultural and financial hub.</p>
+            <h3>Accommodations</h3>
+            <p><b>Rooms & Suites:</b> The Plaza features 282 guest rooms and suites, each designed with the highest level of luxury. Rooms combine classic elegance with modern comforts, often featuring luxurious fabrics, antique-style furnishings, and stunning views of Central Park or the New York skyline.</p>
+            <p><b>Signature Suites:</b> Among the most prestigious suites in the hotel are the Royal Suite and the Plaza Suite, which offer expansive living spaces, private dining rooms, and butler service.</p>
+            <h3>Dining & Amenities</h3>
+            <p><b>The Palm Court:</b> Known for its famous afternoon tea service, The Palm Court is one of New York's most celebrated dining spots. It offers a menu of classic dishes with a modern twist, set in a beautiful, light-filled room with high ceilings and sweeping windows overlooking the Plaza’s courtyard.</p>
+            <p><b>The Plaza Food Hall:</b> This casual dining venue features a variety of food options from gourmet sandwiches to artisanal pastries, all in a stylish, modern setting.</p>
+            <h3>Events & Weddings</h3>
+            <p>The Plaza Hotel is a sought-after venue for weddings, galas, corporate events, and private parties. The hotel's event spaces, such as the Grand Ballroom and the Terrace Room, are designed to host large, sophisticated gatherings.</p>
+            <p><b>Weddings:</b> The Plaza is famous for hosting luxurious weddings, with a dedicated wedding team to help curate every detail, from florals to catering to entertainment.</p>
+            <p>The Plaza Hotel stands as a beacon of luxury, elegance, and New York history. Whether you're staying in one of its beautifully appointed rooms, dining at its renowned restaurants, or simply enjoying a drink at its Champagne Bar, a visit to the Plaza offers an unforgettable New York experience. With a blend of old-world charm and modern amenities, the Plaza continues to be a premier destination for visitors seeking the best that the city has to offer.</p>
+        </div>
+
+        <!-- Image Container on the Right -->
+        <div class="image-container">
+            <img src="./images/h1.jpeg" alt="Hotel Plaza Image 1">
+            <img src="./images/h2.jpeg" alt="Hotel Plaza Image 2">
+            <img src="./images/h3.jpeg" alt="Hotel Plaza Image 3">
+            <img src="./images/h4.jpeg" alt="Hotel Plaza Image 4">
+        </div>
+    </div>
+
+    <a href="Contact Us.html" class="next-button">Next</a>
+</body>
+</html>

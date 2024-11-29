@@ -1,0 +1,9 @@
+body{
+    background-image:url("thankyou.png") ;
+    height: 700px;
+    background-repeat: no-repeat; 
+    background-position: center; /* Center the image */
+    background-size: cover;
+    bottom:20px;
+    margin: 0;
+}

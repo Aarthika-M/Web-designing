@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Plaza</title>
+    <style>
+        /* General resets */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+            /* Set background images for left and right sides */
+            background-image: url("./images/c2.png");
+            background-position: cover;
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0px;
+        }
+
+        /* Container */
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            max-width: 900px;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin: 40px 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            color: white;
+        }
+
+        /* Contact Section */
+        .contact-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .contact-info h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #4CAF50;
+        }
+
+        .contact-info p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .contact-item {
+            margin-bottom: 20px;
+        }
+
+        .contact-item h3 {
+            font-size: 1.4rem;
+            color: #333;
+            margin-bottom: 10px;
+        }
+
+        .contact-item a {
+            color: #007BFF;
+            text-decoration: none;
+        }
+
+        .contact-item a:hover {
+            text-decoration: underline;
+        }
+
+        .contact-item ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .contact-item ul li {
+            margin-bottom: 8px;
+        }
+
+        .contact-item strong {
+            font-weight: bold;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #666;
+        }
+
+        footer p {
+            margin: 20px 0;
+        }
+        .next-button {
+            position: fixed;      
+            bottom: 20px;          /* Place the button 20px from the bottom of the screen */
+            right: 20px;           /* Place the button 20px from the right edge */
+            color: black;
+            background-color: white;
+            border: 1px solid white;
+            border-radius: 5px;
+            text-decoration: none; /* Corrected from 0 to 'none' */
+            padding: 10px 20px;    /* Adjusted padding for better button appearance */
+            z-index: 1000;         /* Ensures the button appears above other content */
+        }
+      
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Contact Us</h1>
+        </header>
+
+        <section class="contact-info">
+            <h2>Get in Touch</h2>
+            <p>We'd love to hear from you! Whether you have a question about our menu, need a reservation, or just want to say hello, feel free to reach out to us using the contact details below:</p>
+
+            <div class="contact-item">
+                <h3>Phone</h3>
+                <p><a href="tel:+1234567890">+1 (234) 567-890</a></p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Email</h3>
+                <p><a href="mailto:plaza@hotel.com">plaza@hotel.com</a></p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Reservation</h3>
+                <p>For reservations, please call the number above or click <a href="mailto:reservation@hotel.com">here</a> to email us directly.</p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Location</h3>
+                <p> 123 Luxury St, Cityville, New York, 12345</p>
+            </div>
+
+            <div class="contact-item">
+                <h3>Business Hours</h3>
+                <ul>
+                    <li>Monday - Friday: 7:00 AM - 10:00 PM</li>
+                    <li>Saturday - Sunday: 8:00 AM - 11:00 PM</li>
+                </ul>
+            </div>
+
+            <div class="contact-item">
+                <h3>Follow Us</h3>
+                <ul>
+                    <li><a href="https://facebook.com/HotelRestaurant" target="_blank">Facebook</a></li>
+                    <li><a href="https://instagram.com/HotelRestaurant" target="_blank">Instagram</a></li>
+                    <li><a href="https://twitter.com/HotelRestaurant" target="_blank">Twitter</a></li>
+                </ul>
+            </div>
+            <a href="Home.html" class="next-button">Next</a>
+          
+        </section>
+
+       
+
+        <footer>
+            <p>&copy; 2024 Hotel Plaza | All Rights Reserved</p>
+        </footer>
+    </div>
+</body>
+</html>
